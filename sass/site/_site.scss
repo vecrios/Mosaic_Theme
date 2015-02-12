@@ -1,0 +1,88 @@
+// @import "../layout/content-sidebar";
+// @import "../layout/sidebar-content";
+
+
+.site {
+	@include flexbox;
+
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+	.site-header {
+		@include order(0);
+		@include flex(1 1 100%);
+	}
+
+	.main-navigation {
+		@include order(1);
+		@include flex(0 1 25%);	
+	}
+
+	.site-content {
+		@include order(2);
+		@include flex(1 1);	
+	}
+
+	.site-footer {
+		@include order(3);
+		@include flex(1 1 100%);	
+	}
+
+}
+
+
+
+/* @media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .site-content { 
+		flex: 2 0px;
+	}
+
+	.main-navigation { 
+		order: 1; 
+	}
+	.site-content { 
+		order: 2; 
+	}
+
+	.site-footer  { 
+		order: 3; 
+	}
+} */
+
+
+/*--------------------------------------------------------------
+10.1 Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+10.2 Asides
+--------------------------------------------------------------*/
+@import "primary/asides";
+
+/*--------------------------------------------------------------
+10.3 Comments
+--------------------------------------------------------------*/
+@import "primary/comments";
+
+/*--------------------------------------------------------------
+10.4 Header includes information about site
+--------------------------------------------------------------*/
+@import "header/masthead";
+
+/*--------------------------------------------------------------
+10.5 Footer includes colophon
+--------------------------------------------------------------*/
+@import "footer/colophon";
+
+/*--------------------------------------------------------------
+10.6 Menus
+--------------------------------------------------------------*/
+@import "nav/menus";
+
+
+

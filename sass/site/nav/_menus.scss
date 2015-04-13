@@ -1,9 +1,13 @@
+$footer-height: 30px;
+
 .main-navigation {
 	background-color: black;
 
 	clear: both;
 	display: block;
 	position: relative;
+
+	padding-bottom: $footer-height;
 
 	.site-branding {
 		padding: 15px;
@@ -15,6 +19,7 @@
 			color: white;
 		}
 	}
+
 
 
 	ul {
@@ -87,6 +92,22 @@
 	.current_page_item > a,
 	.current-menu-item > a,
 	.current_page_ancestor > a {
+	}
+
+	.site-info {
+		.copyright {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+
+			height: $footer-height;
+			font-size: 7pt;
+			color: gray;
+			padding: 2%;
+			padding-right: 4%;
+			padding-left: 4%;
+			width: 100%;
+		}
 	}
 }
 

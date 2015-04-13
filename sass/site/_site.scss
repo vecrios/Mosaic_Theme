@@ -18,12 +18,6 @@
 			@include order(2);
 			@include flex(2 0px);	
 		}
-
-		.site-footer {
-			@include order(4);
-			@include flex(1 100%);
-		}
-
 	}
 }
 
@@ -47,11 +41,6 @@
 10.4 Header includes information about site
 --------------------------------------------------------------*/
 @import "header/masthead";
-
-/*--------------------------------------------------------------
-10.5 Footer includes colophon
---------------------------------------------------------------*/
-@import "footer/colophon";
 
 /*--------------------------------------------------------------
 10.6 Menus

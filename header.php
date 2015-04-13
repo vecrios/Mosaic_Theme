@@ -23,13 +23,6 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'underscores_theme' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			<img src="<?php bloginfo('template_url'); ?>/media/profpic.jpeg" alt="">
-		</div><!-- .site-branding -->
-	</header><!-- #masthead -->
-
 	<?php // include navigational menu ?>
 	<?php include 'nav.php' ?>
 

@@ -8,7 +8,7 @@
 	if(!elements) {
 		return;
 	}
-	elements = elements.getElementsByTagName('a')
+	elements = elements.getElementsByTagName('li')
 	if(!elements) {
 		return;
 	}

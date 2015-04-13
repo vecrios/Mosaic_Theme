@@ -1,11 +1,21 @@
 .main-navigation {
+	background-color: black;
+
 	clear: both;
 	display: block;
 	position: relative;
 
-	.menu {
-		float: right;
+	.site-branding {
+		padding: 15px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		.site-description {
+			font-size: 45px;
+			color: white;
+		}
 	}
+
 
 	ul {
 		list-style: none;
@@ -13,7 +23,12 @@
 		padding-left: 0;
 
 		ul {
-			float: left;
+
+			// display only level 1 elements
+			// TODO: do I want to introduce multi-level pages? 
+
+			display: none;
+/* 
 			position: absolute;
 			top: 1.5em;
 			left: -999em;
@@ -41,6 +56,7 @@
 
 			a:hover {
 			}
+			 */
 		}
 
 		li:hover > ul {
@@ -50,9 +66,8 @@
 	li {
 		position: relative;
 
-		float: none; 
- 		min-height: 64px; 
- 		width: 80px; 
+ 		min-height: 50px; 
+ 		width: 100%; 
  		text-align: center; 
 		display: table; 
 
@@ -60,13 +75,10 @@
 		}
 	}
 	a {
-		display: block;
-		text-decoration: none;
-
 		display: table-cell; 
 		text-decoration: none;	
+
 		vertical-align: middle; 
-		width: 100%; 
 		height: 100%; 
 		padding: 4px; 
 		color: white; 

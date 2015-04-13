@@ -12,7 +12,7 @@
 		<div class="entry-meta">
 			<?php 
 				// Uncomment to show date of post
-				// underscores_theme_posted_on();  
+				underscores_theme_posted_on();  
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -36,6 +36,9 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php underscores_theme_entry_footer(); ?>
+		<?php 
+			// Uncomment to show category and tags
+			// underscores_theme_entry_footer(); 
+		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

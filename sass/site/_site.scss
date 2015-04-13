@@ -2,56 +2,30 @@
 // @import "../layout/sidebar-content";
 
 
-.site {
-	@include flexbox;
-
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
-
-	.site-header {
-		@include order(0);
-		@include flex(1 1 100%);
-	}
-
-	.main-navigation {
-		@include order(1);
-		@include flex(0 1 25%);	
-	}
-
-	.site-content {
-		@include order(2);
-		@include flex(1 1);	
-	}
-
-	.site-footer {
-		@include order(3);
-		@include flex(1 1 100%);	
-	}
-
-}
-
-
-
-/* @media all and (min-width: 600px) {
-  .aside { flex: 1 auto; }
-}
-
 @media all and (min-width: 800px) {
-  .site-content { 
-		flex: 2 0px;
-	}
+	.site {
+		@include flexbox;
 
-	.main-navigation { 
-		order: 1; 
-	}
-	.site-content { 
-		order: 2; 
-	}
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
 
-	.site-footer  { 
-		order: 3; 
+		.main-navigation {
+			@include order(3);
+			@include flex(1 10px);
+		}
+
+		.site-content {
+			@include order(2);
+			@include flex(2 0px);	
+		}
+
+		.site-footer {
+			@include order(4);
+			@include flex(1 100%);
+		}
+
 	}
-} */
+}
 
 
 /*--------------------------------------------------------------

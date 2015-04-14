@@ -920,74 +920,79 @@ DIRTYYYYYYYYYYYYY FOR QUICK MODIFICATIONS
 .entry-title {
   line-height: 1em;
   font-size: 2.75em;
-  color: #2C2C2C; }
-  /* line 15, sass/misc/_dirty.scss */
+  color: #2C2C2C;
+  font-weight: lighter; }
+  /* line 17, sass/misc/_dirty.scss */
   .entry-title a {
     color: #2C2C2C; }
-    /* line 17, sass/misc/_dirty.scss */
+    /* line 19, sass/misc/_dirty.scss */
     .entry-title a:hover {
       color: #808080; }
 
-/* line 23, sass/misc/_dirty.scss */
+/* line 25, sass/misc/_dirty.scss */
 a {
   text-decoration: none; }
 
-/* line 27, sass/misc/_dirty.scss */
+/* line 29, sass/misc/_dirty.scss */
 .entry-meta {
   font-size: 0.7em;
-  padding-left: 3px; }
+  padding-left: 3px;
+  font-weight: 500; }
 
-/* line 33, sass/misc/_dirty.scss */
+/* line 36, sass/misc/_dirty.scss */
 article.post > header.entry-header > * {
   text-align: left;
   display: inline-block; }
 
-/* line 38, sass/misc/_dirty.scss */
+/* line 41, sass/misc/_dirty.scss */
 .entry-content {
   font-size: 12px;
   font-size: 1.2rem; }
+  /* line 43, sass/misc/_dirty.scss */
+  .entry-content a {
+    font-weight: bold; }
 
-/* line 43, sass/misc/_dirty.scss */
+/* line 49, sass/misc/_dirty.scss */
 .main-navigation {
   margin-top: 3em; }
 
-/* line 48, sass/misc/_dirty.scss */
+/* line 54, sass/misc/_dirty.scss */
 .background-1 {
   background-color: #C61459; }
 
-/* line 49, sass/misc/_dirty.scss */
+/* line 55, sass/misc/_dirty.scss */
 .background-2 {
   background-color: #57B4BD; }
 
-/* line 50, sass/misc/_dirty.scss */
+/* line 56, sass/misc/_dirty.scss */
 .background-3 {
   background-color: #ff9c84; }
 
-/* line 51, sass/misc/_dirty.scss */
+/* line 57, sass/misc/_dirty.scss */
 .background-4 {
   background-color: #094761; }
 
-/* line 52, sass/misc/_dirty.scss */
+/* line 58, sass/misc/_dirty.scss */
 .background-5 {
   background-color: #67474D; }
 
-/* line 53, sass/misc/_dirty.scss */
+/* line 59, sass/misc/_dirty.scss */
 .background-6 {
   background-color: #79D015; }
 
-/* line 54, sass/misc/_dirty.scss */
+/* line 60, sass/misc/_dirty.scss */
 .background-7 {
   background-color: #393142; }
 
-/* line 55, sass/misc/_dirty.scss */
+/* line 61, sass/misc/_dirty.scss */
 .background-8 {
   background-color: #796D66; }
 
-/* line 56, sass/misc/_dirty.scss */
+/* line 62, sass/misc/_dirty.scss */
 .background-9 {
   background-color: #C7642F; }
 
-/* line 57, sass/misc/_dirty.scss */
+/* line 63, sass/misc/_dirty.scss */
 .background-10 {
   background-color: #A3B787; }
 

@@ -12,6 +12,8 @@
 	line-height: 1em;
 	font-size: 2.75em;
 	color: $color__title;
+	font-weight: lighter;
+
 	a {
 		color: $color__title;
 		&:hover {
@@ -27,6 +29,7 @@ a {
 .entry-meta { 
 	font-size: 0.7em;
 	padding-left: 3px;
+	font-weight: 500;
 }
 
 
@@ -37,6 +40,9 @@ article.post > header.entry-header > * {
 
 .entry-content {
 	@include font-size(1.2);
+	a {
+		font-weight: bold;
+	}
 }
 
 

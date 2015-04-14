@@ -1,4 +1,4 @@
-$footer-height: 30px;
+$footer-height: 3em;
 
 .main-navigation {
 	background-color: black;
@@ -15,7 +15,7 @@ $footer-height: 30px;
 		padding-bottom: 20px;
 
 		.site-description {
-			font-size: 45px;
+			font-size: 1.3em;
 			color: white;
 		}
 	}
@@ -71,7 +71,7 @@ $footer-height: 30px;
 	li {
 		position: relative;
 
- 		min-height: 50px; 
+ 		min-height: 40px; 
  		width: 100%; 
  		text-align: center; 
 		display: table; 

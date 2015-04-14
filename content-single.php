@@ -24,6 +24,8 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php underscores_theme_entry_footer(); ?>
+		<?php 
+			// underscores_theme_entry_footer(); 
+		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

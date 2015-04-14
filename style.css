@@ -163,6 +163,34 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
+/* line 6, sass/typography/_headings.scss */
+h1 {
+  font-size: 3em; }
+
+/* line 10, sass/typography/_headings.scss */
+h2 {
+  font-size: 2.25em; }
+
+/* line 14, sass/typography/_headings.scss */
+h3 {
+  font-size: 1.75em; }
+
+/* line 18, sass/typography/_headings.scss */
+h4 {
+  font-size: 1.125em; }
+
+/* line 22, sass/typography/_headings.scss */
+h5 {
+  font-size: 1em; }
+
+/* line 26, sass/typography/_headings.scss */
+h6 {
+  font-size: 0.7em; }
+
+/* line 30, sass/typography/_headings.scss */
+blockquote {
+  font-size: 1.5em; }
+
 /* line 1, sass/typography/_copy.scss */
 p {
   margin-bottom: 1.5em; }
@@ -187,8 +215,7 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 1.2;
   line-height: 1.6;
   margin-bottom: 1.6em;
   max-width: 100%;
@@ -197,8 +224,7 @@ pre {
 
 /* line 32, sass/typography/_copy.scss */
 code, kbd, tt, var {
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 1.2em;
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
 
 /* line 37, sass/typography/_copy.scss */
@@ -663,7 +689,7 @@ a {
   clear: both;
   display: block;
   position: relative;
-  padding-bottom: 30px; }
+  padding-bottom: 3em; }
   /* line 12, sass/site/nav/_menus.scss */
   .main-navigation .site-branding {
     padding: 15px;
@@ -671,7 +697,7 @@ a {
     padding-bottom: 20px; }
     /* line 17, sass/site/nav/_menus.scss */
     .main-navigation .site-branding .site-description {
-      font-size: 45px;
+      font-size: 1.3em;
       color: white; }
   /* line 25, sass/site/nav/_menus.scss */
   .main-navigation ul {
@@ -716,7 +742,7 @@ a {
   /* line 71, sass/site/nav/_menus.scss */
   .main-navigation li {
     position: relative;
-    min-height: 50px;
+    min-height: 40px;
     width: 100%;
     text-align: center;
     display: table; }
@@ -733,7 +759,7 @@ a {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 30px;
+    height: 3em;
     font-size: 7pt;
     color: gray;
     padding: 2%;
@@ -887,67 +913,70 @@ DIRTYYYYYYYYYYYYY FOR QUICK MODIFICATIONS
 /* TURKI: */
 /* line 11, sass/misc/_dirty.scss */
 .entry-title {
-  font-size: 17pt; }
+  line-height: 1em;
+  font-size: 2.75em; }
 
-/* line 15, sass/misc/_dirty.scss */
+/* line 16, sass/misc/_dirty.scss */
 a {
   text-decoration: none; }
 
-/* line 19, sass/misc/_dirty.scss */
+/* line 20, sass/misc/_dirty.scss */
 .entry-meta {
-  font-size: 7pt;
-  color: gray; }
+  font-size: 0.5em;
+  color: gray;
+  padding-left: 3px; }
 
-/* line 24, sass/misc/_dirty.scss */
-article header {
-  padding-left: 3%;
-  padding-right: 3%; }
-
-/* line 29, sass/misc/_dirty.scss */
+/* line 27, sass/misc/_dirty.scss */
 article.post > header.entry-header > * {
-  text-align: center; }
+  text-align: left;
+  display: inline-block; }
 
-/* line 33, sass/misc/_dirty.scss */
-p {
-  font-size: 11pt; }
+/* line 32, sass/misc/_dirty.scss */
+.entry-content {
+  font-size: 12px;
+  font-size: 1.2rem; }
 
 /* line 37, sass/misc/_dirty.scss */
+.main-navigation {
+  margin-top: 3em; }
+
+/* line 42, sass/misc/_dirty.scss */
 .background-1 {
   background-color: #C61459; }
 
-/* line 38, sass/misc/_dirty.scss */
+/* line 43, sass/misc/_dirty.scss */
 .background-2 {
   background-color: #57B4BD; }
 
-/* line 39, sass/misc/_dirty.scss */
+/* line 44, sass/misc/_dirty.scss */
 .background-3 {
   background-color: #ff9c84; }
 
-/* line 40, sass/misc/_dirty.scss */
+/* line 45, sass/misc/_dirty.scss */
 .background-4 {
   background-color: #094761; }
 
-/* line 41, sass/misc/_dirty.scss */
+/* line 46, sass/misc/_dirty.scss */
 .background-5 {
   background-color: #67474D; }
 
-/* line 42, sass/misc/_dirty.scss */
+/* line 47, sass/misc/_dirty.scss */
 .background-6 {
   background-color: #79D015; }
 
-/* line 43, sass/misc/_dirty.scss */
+/* line 48, sass/misc/_dirty.scss */
 .background-7 {
   background-color: #393142; }
 
-/* line 44, sass/misc/_dirty.scss */
+/* line 49, sass/misc/_dirty.scss */
 .background-8 {
   background-color: #796D66; }
 
-/* line 45, sass/misc/_dirty.scss */
+/* line 50, sass/misc/_dirty.scss */
 .background-9 {
   background-color: #C7642F; }
 
-/* line 46, sass/misc/_dirty.scss */
+/* line 51, sass/misc/_dirty.scss */
 .background-10 {
   background-color: #A3B787; }
 

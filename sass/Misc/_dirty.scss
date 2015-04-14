@@ -9,7 +9,8 @@
 }
 
 .entry-title {
-	font-size: 17pt;
+	line-height: 1em;
+	font-size: 2.75em;
 }
 
 a {
@@ -17,22 +18,26 @@ a {
 }
 
 .entry-meta { 
-	font-size: 7pt;
+	font-size: 0.5em;
 	color: gray;
+	padding-left: 3px;
 }
 
-article header { 
-	padding-left: 3%;
-	padding-right: 3%;
-}
 
 article.post > header.entry-header > * {
-	text-align: center;
+	text-align: left;
+	display: inline-block;
 }
 
-p {
-	font-size: 11pt;
+.entry-content {
+	@include font-size(1.2);
 }
+
+
+.main-navigation {
+	margin-top: 3em;
+}
+
 
 .background-1 	{	background-color: #C61459;	}
 .background-2 	{	background-color: #57B4BD;	}

@@ -11,6 +11,13 @@
 .entry-title {
 	line-height: 1em;
 	font-size: 2.75em;
+	color: $color__title;
+	a {
+		color: $color__title;
+		&:hover {
+			color: $color__link-hover;
+		}
+	}
 }
 
 a {
@@ -18,8 +25,7 @@ a {
 }
 
 .entry-meta { 
-	font-size: 0.5em;
-	color: gray;
+	font-size: 0.7em;
 	padding-left: 3px;
 }
 

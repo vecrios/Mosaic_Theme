@@ -192,7 +192,7 @@ blockquote {
   font-size: 1.5em; }
 
 /* line 1, sass/typography/_copy.scss */
-p {
+:not(blockquote) > p {
   margin-bottom: 1.5em; }
 
 /* line 5, sass/typography/_copy.scss */
@@ -213,31 +213,25 @@ address {
 
 /* line 21, sass/typography/_copy.scss */
 pre {
-  background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 1.2;
-  line-height: 1.6;
-  margin-bottom: 1.6em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 1.6em; }
+  font-size: 1.2; }
 
-/* line 32, sass/typography/_copy.scss */
+/* line 26, sass/typography/_copy.scss */
 code, kbd, tt, var {
   font-size: 1.2em;
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
 
-/* line 37, sass/typography/_copy.scss */
+/* line 31, sass/typography/_copy.scss */
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help; }
 
-/* line 42, sass/typography/_copy.scss */
+/* line 36, sass/typography/_copy.scss */
 mark, ins {
   background: #fff9c0;
   text-decoration: none; }
 
-/* line 47, sass/typography/_copy.scss */
+/* line 41, sass/typography/_copy.scss */
 sup,
 sub {
   font-size: 75%;
@@ -246,21 +240,49 @@ sub {
   position: relative;
   vertical-align: baseline; }
 
-/* line 56, sass/typography/_copy.scss */
+/* line 50, sass/typography/_copy.scss */
 sup {
   bottom: 1ex; }
 
-/* line 60, sass/typography/_copy.scss */
+/* line 54, sass/typography/_copy.scss */
 sub {
   top: .5ex; }
 
-/* line 64, sass/typography/_copy.scss */
+/* line 58, sass/typography/_copy.scss */
 small {
   font-size: 75%; }
 
-/* line 68, sass/typography/_copy.scss */
+/* line 62, sass/typography/_copy.scss */
 big {
   font-size: 125%; }
+
+/* line 66, sass/typography/_copy.scss */
+pre, blockquote {
+  background: black;
+  color: white;
+  margin-left: -5%;
+  margin-right: -5%;
+  font-weight: lighter;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  overflow: auto;
+  padding: 1.6em; }
+
+/* line 81, sass/typography/_copy.scss */
+cite {
+  width: 100%;
+  display: block;
+  text-align: right; }
+  /* line 86, sass/typography/_copy.scss */
+  blockquote cite {
+    font-weight: 100;
+    font-size: 0.7em;
+    padding-top: .6em; }
+  /* line 92, sass/typography/_copy.scss */
+  :not(blockquote) cite {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: -2em; }
 
 /*--------------------------------------------------------------
 3.0 Elements

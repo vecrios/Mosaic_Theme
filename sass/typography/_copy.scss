@@ -1,4 +1,4 @@
-p {
+:not(blockquote) > p {
 	margin-bottom: 1.5em;
 }
 
@@ -19,14 +19,8 @@ address {
 }
 
 pre {
-	background: $color__background-pre;
 	font-family: $font__pre;
 	font-size: 1.2;
-	line-height: $font__line-height-pre;
-	margin-bottom: 1.6em;
-	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
 }
 
 code, kbd, tt, var {
@@ -67,4 +61,37 @@ small {
 
 big {
 	font-size: 125%;
+}
+
+pre, blockquote {
+	background: $color__background-pre;
+	color: $color__text-pre;
+
+	margin-left: -5%;
+	margin-right: -5%;
+
+	font-weight: lighter;
+
+	line-height: $font__line-height-pre;
+	margin-bottom: 1.6em;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+cite {
+	width: 100%;
+	display: block;
+	text-align: right;
+
+	blockquote & {
+		font-weight: 100;
+		font-size: 0.7em;
+		padding-top: .6em;
+	}
+
+	:not(blockquote) & {
+		font-weight: bold;
+		font-size: 0.9em;
+		margin-top: -2em;
+	}
 }

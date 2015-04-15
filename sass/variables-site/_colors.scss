@@ -1,9 +1,14 @@
+$color__background-sidebar: black;
+
 $color__background-body: #fff;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
-$color__background-pre: #eee;
+$color__background-pre: $color__background-sidebar;
 $color__background-ins: #fff9c0;
+
+
+$color__text-pre: white;
 
 $color__text-screen: #404040;
 $color__text-input: #666;

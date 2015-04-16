@@ -95,3 +95,43 @@ cite {
 		margin-top: -2em;
 	}
 }
+blockquote {
+	quotes: "\201C" "\201D" "\2018" "\2019";
+	position: relative;
+
+	p { 
+		padding-left: 1.7em;
+	}
+
+	&:before {
+		content: open-quote;
+		font-size: 3em;
+		position: absolute;
+		font-family: "Times New Roman";
+		top: 0.1em;
+		font-weight: bold;
+	}
+
+	&:after {
+	    content: no-close-quote;
+	}
+}
+
+
+q {
+	quotes: "\201C" "\201D" "\2018" "\2019";
+
+	&:before {
+		content: open-quote;
+	}
+
+	&:after {
+	    content: close-quote;
+	}
+
+	&:before, &:after {
+		font-size: 1.5em;
+		font-family: "Times New Roman";
+		font-weight: bold;
+	}
+}

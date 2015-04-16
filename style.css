@@ -284,6 +284,40 @@ cite {
     font-size: 0.9em;
     margin-top: -2em; }
 
+/* line 98, sass/typography/_copy.scss */
+blockquote {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  position: relative; }
+  /* line 102, sass/typography/_copy.scss */
+  blockquote p {
+    padding-left: 1.7em; }
+  /* line 106, sass/typography/_copy.scss */
+  blockquote:before {
+    content: open-quote;
+    font-size: 3em;
+    position: absolute;
+    font-family: "Times New Roman";
+    top: 0.1em;
+    font-weight: bold; }
+  /* line 115, sass/typography/_copy.scss */
+  blockquote:after {
+    content: no-close-quote; }
+
+/* line 121, sass/typography/_copy.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+  /* line 124, sass/typography/_copy.scss */
+  q:before {
+    content: open-quote; }
+  /* line 128, sass/typography/_copy.scss */
+  q:after {
+    content: close-quote; }
+  /* line 132, sass/typography/_copy.scss */
+  q:before, q:after {
+    font-size: 1.5em;
+    font-family: "Times New Roman";
+    font-weight: bold; }
+
 /*--------------------------------------------------------------
 3.0 Elements
 --------------------------------------------------------------*/

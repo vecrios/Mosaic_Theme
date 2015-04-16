@@ -6,6 +6,7 @@ TODO:
 	* make the colors as a border on left only. When hovered, it colors the entire element
 * Add quotation marks around CITE BLOCKQOUTE Q(?)
 * Style tables like PRE? 
+* Tables? 
 
 
 BUGS: 

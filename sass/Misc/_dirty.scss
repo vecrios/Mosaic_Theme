@@ -47,18 +47,64 @@ article.post > header.entry-header > * {
 
 
 .main-navigation {
-	margin-top: 3em;
+	margin-top: 4em;
+
+	li {
+		z-index: 1;
+
+		border-left-width: 6px;
+		border-left-style: solid;
+
+
+		&:hover  {
+			$delay: 0.3s;
+			-webkit-transition: background $delay linear;
+	        -moz-transition: background $delay linear;
+	        -ms-transition: background $delay linear;
+	        -o-transition: background $delay linear;
+	        transition: background $delay linear;
+		}
+
+		&.current_page_item {
+			&::before {
+				content: "";
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+				opacity: .5;
+				z-index: -1;
+			}
+		}
+
+		a {
+			border-left: none;
+			border-right: none;
+
+			&:focus {
+				outline: none;
+			}
+		}
+	}
 }
 
 
-.background-1 	{	background-color: #C61459;	}
-.background-2 	{	background-color: #57B4BD;	}
-.background-3 	{	background-color: #ff9c84;	}
-.background-4 	{	background-color: #094761;	}
-.background-5 	{	background-color: #67474D;	}
-.background-6 	{	background-color: #79D015;	}
-.background-7 	{	background-color: #393142;	}
-.background-8 	{	background-color: #796D66;	}
-.background-9 	{	background-color: #C7642F;	}
-.background-10 	{	background-color: #A3B787;	}
+@mixin sidebar-item($color) {
+	border-color: $color;
+	&:hover  {
+		background-color: $color;
+	}
 
+	&.current_page_item {
+		&::before {
+			background-color: $color;
+		}
+	}
+}
+
+.background-1 	{	@include sidebar-item(#E65300) }
+.background-2 	{	@include sidebar-item(#B50A1A) }
+.background-3 	{	@include sidebar-item(#84004F) }
+.background-4 	{	@include sidebar-item(#49006C) }
+.background-5 	{	@include sidebar-item(#10003A) }

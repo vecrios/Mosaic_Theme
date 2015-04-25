@@ -100,7 +100,7 @@ blockquote {
 	position: relative;
 
 	p { 
-		padding-left: 1.7em;
+		padding-left: 2em;
 	}
 
 	&:before {
@@ -110,6 +110,8 @@ blockquote {
 		font-family: "Times New Roman";
 		top: 0.1em;
 		font-weight: bold;
+
+		color: grey;
 	}
 
 	&:after {

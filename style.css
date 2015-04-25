@@ -290,7 +290,7 @@ blockquote {
   position: relative; }
   /* line 102, sass/typography/_copy.scss */
   blockquote p {
-    padding-left: 1.7em; }
+    padding-left: 2em; }
   /* line 106, sass/typography/_copy.scss */
   blockquote:before {
     content: open-quote;
@@ -298,21 +298,22 @@ blockquote {
     position: absolute;
     font-family: "Times New Roman";
     top: 0.1em;
-    font-weight: bold; }
-  /* line 115, sass/typography/_copy.scss */
+    font-weight: bold;
+    color: grey; }
+  /* line 117, sass/typography/_copy.scss */
   blockquote:after {
     content: no-close-quote; }
 
-/* line 121, sass/typography/_copy.scss */
+/* line 123, sass/typography/_copy.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
-  /* line 124, sass/typography/_copy.scss */
+  /* line 126, sass/typography/_copy.scss */
   q:before {
     content: open-quote; }
-  /* line 128, sass/typography/_copy.scss */
+  /* line 130, sass/typography/_copy.scss */
   q:after {
     content: close-quote; }
-  /* line 132, sass/typography/_copy.scss */
+  /* line 134, sass/typography/_copy.scss */
   q:before, q:after {
     font-size: 1.5em;
     font-family: "Times New Roman";
@@ -1010,46 +1011,85 @@ article.post > header.entry-header > * {
 
 /* line 49, sass/misc/_dirty.scss */
 .main-navigation {
-  margin-top: 3em; }
+  margin-top: 4em; }
+  /* line 52, sass/misc/_dirty.scss */
+  .main-navigation li {
+    z-index: 1;
+    border-left-width: 6px;
+    border-left-style: solid; }
+    /* line 59, sass/misc/_dirty.scss */
+    .main-navigation li:hover {
+      -webkit-transition: background 0.3s linear;
+      -moz-transition: background 0.3s linear;
+      -ms-transition: background 0.3s linear;
+      -o-transition: background 0.3s linear;
+      transition: background 0.3s linear; }
+    /* line 69, sass/misc/_dirty.scss */
+    .main-navigation li.current_page_item::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: .5;
+      z-index: -1; }
+    /* line 81, sass/misc/_dirty.scss */
+    .main-navigation li a {
+      border-left: none;
+      border-right: none; }
+      /* line 85, sass/misc/_dirty.scss */
+      .main-navigation li a:focus {
+        outline: none; }
 
-/* line 54, sass/misc/_dirty.scss */
+/* line 106, sass/misc/_dirty.scss */
 .background-1 {
-  background-color: #C61459; }
+  border-color: #E65300; }
+  /* line 95, sass/misc/_dirty.scss */
+  .background-1:hover {
+    background-color: #E65300; }
+  /* line 100, sass/misc/_dirty.scss */
+  .background-1.current_page_item::before {
+    background-color: #E65300; }
 
-/* line 55, sass/misc/_dirty.scss */
+/* line 107, sass/misc/_dirty.scss */
 .background-2 {
-  background-color: #57B4BD; }
+  border-color: #B50A1A; }
+  /* line 95, sass/misc/_dirty.scss */
+  .background-2:hover {
+    background-color: #B50A1A; }
+  /* line 100, sass/misc/_dirty.scss */
+  .background-2.current_page_item::before {
+    background-color: #B50A1A; }
 
-/* line 56, sass/misc/_dirty.scss */
+/* line 108, sass/misc/_dirty.scss */
 .background-3 {
-  background-color: #ff9c84; }
+  border-color: #84004F; }
+  /* line 95, sass/misc/_dirty.scss */
+  .background-3:hover {
+    background-color: #84004F; }
+  /* line 100, sass/misc/_dirty.scss */
+  .background-3.current_page_item::before {
+    background-color: #84004F; }
 
-/* line 57, sass/misc/_dirty.scss */
+/* line 109, sass/misc/_dirty.scss */
 .background-4 {
-  background-color: #094761; }
+  border-color: #49006C; }
+  /* line 95, sass/misc/_dirty.scss */
+  .background-4:hover {
+    background-color: #49006C; }
+  /* line 100, sass/misc/_dirty.scss */
+  .background-4.current_page_item::before {
+    background-color: #49006C; }
 
-/* line 58, sass/misc/_dirty.scss */
+/* line 110, sass/misc/_dirty.scss */
 .background-5 {
-  background-color: #67474D; }
-
-/* line 59, sass/misc/_dirty.scss */
-.background-6 {
-  background-color: #79D015; }
-
-/* line 60, sass/misc/_dirty.scss */
-.background-7 {
-  background-color: #393142; }
-
-/* line 61, sass/misc/_dirty.scss */
-.background-8 {
-  background-color: #796D66; }
-
-/* line 62, sass/misc/_dirty.scss */
-.background-9 {
-  background-color: #C7642F; }
-
-/* line 63, sass/misc/_dirty.scss */
-.background-10 {
-  background-color: #A3B787; }
+  border-color: #10003A; }
+  /* line 95, sass/misc/_dirty.scss */
+  .background-5:hover {
+    background-color: #10003A; }
+  /* line 100, sass/misc/_dirty.scss */
+  .background-5.current_page_item::before {
+    background-color: #10003A; }
 
 /*# sourceMappingURL=style.css.map */

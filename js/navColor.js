@@ -13,7 +13,7 @@
 		return;
 	}
 	var prefix = 'background-'
-	var backgroundsCount = 10;
+	var backgroundsCount = 5;
 	for (var i = 0; i < elements.length; i++) {
 		elements[i].classList.add(prefix.concat((i % backgroundsCount) + 1))
 	};

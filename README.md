@@ -8,6 +8,9 @@ TODO:
 * Style tables like PRE? 
 * Tables? 
 * Make main content to the right, sticked to the sidebar
+* Comments? 
+* Language support? Arabic? 
+* Find a way to disable multi-leveling in sidebar contents
 
 
 BUGS: 

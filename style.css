@@ -637,7 +637,7 @@ a {
 
 /* line 5, sass/site/primary/_posts-and-pages.scss */
 .hentry {
-  margin: 0 0 4em; }
+  margin: 0 0 2em; }
 
 /* line 9, sass/site/primary/_posts-and-pages.scss */
 .byline,
@@ -973,62 +973,60 @@ DIRTYYYYYYYYYYYYY FOR QUICK MODIFICATIONS
 --------------------------------------------------------------*/
 /* ------------------------------------------ */
 /* TURKI: */
-/* line 11, sass/misc/_dirty.scss */
+/* line 28, sass/misc/_dirty.scss */
 .entry-title {
-  line-height: 1em;
   font-size: 2.75em;
   color: #2C2C2C;
   font-weight: lighter; }
-  /* line 17, sass/misc/_dirty.scss */
+  /* line 33, sass/misc/_dirty.scss */
   .entry-title a {
     color: #2C2C2C; }
-    /* line 19, sass/misc/_dirty.scss */
+    /* line 35, sass/misc/_dirty.scss */
     .entry-title a:hover {
       color: #808080; }
 
-/* line 25, sass/misc/_dirty.scss */
+/* line 41, sass/misc/_dirty.scss */
 a {
   text-decoration: none; }
 
-/* line 29, sass/misc/_dirty.scss */
+/* line 45, sass/misc/_dirty.scss */
 .entry-meta {
   font-size: 0.7em;
-  padding-left: 3px;
   font-weight: 500; }
 
-/* line 36, sass/misc/_dirty.scss */
-article.post > header.entry-header > * {
-  text-align: left;
-  display: inline-block; }
+/* line 51, sass/misc/_dirty.scss */
+article > header.entry-header > * {
+  text-align: center;
+  display: block; }
 
-/* line 41, sass/misc/_dirty.scss */
+/* line 56, sass/misc/_dirty.scss */
 .entry-content {
   font-size: 12px;
   font-size: 1.2rem; }
-  /* line 43, sass/misc/_dirty.scss */
+  /* line 58, sass/misc/_dirty.scss */
   .entry-content a {
     font-weight: bold; }
 
-/* line 49, sass/misc/_dirty.scss */
+/* line 63, sass/misc/_dirty.scss */
 .main-navigation {
   margin-top: 4em;
   min-height: 100vh; }
-  /* line 52, sass/misc/_dirty.scss */
+  /* line 66, sass/misc/_dirty.scss */
   .main-navigation li {
     z-index: 1;
     border-left-width: 6px;
     border-left-style: solid; }
-    /* line 59, sass/misc/_dirty.scss */
+    /* line 73, sass/misc/_dirty.scss */
     .main-navigation li:hover {
       -webkit-transition: background 0.3s linear;
       -moz-transition: background 0.3s linear;
       -ms-transition: background 0.3s linear;
       -o-transition: background 0.3s linear;
       transition: background 0.3s linear; }
-      /* line 67, sass/misc/_dirty.scss */
+      /* line 81, sass/misc/_dirty.scss */
       .main-navigation li:hover a {
         color: white; }
-    /* line 73, sass/misc/_dirty.scss */
+    /* line 87, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item::before {
       content: "";
       height: 100%;
@@ -1038,65 +1036,64 @@ article.post > header.entry-header > * {
       top: 0;
       opacity: .5;
       z-index: -1; }
-    /* line 83, sass/misc/_dirty.scss */
+    /* line 97, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item a {
       color: white; }
-    /* line 88, sass/misc/_dirty.scss */
+    /* line 102, sass/misc/_dirty.scss */
     .main-navigation li a {
       border-left: none;
       border-right: none;
       color: grey; }
-      /* line 93, sass/misc/_dirty.scss */
+      /* line 107, sass/misc/_dirty.scss */
       .main-navigation li a:focus {
         outline: none; }
+    /* line 112, sass/misc/_dirty.scss */
+    .main-navigation li:nth-of-type(5n+1) {
+      border-color: #E65300; }
+      /* line 17, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+1):hover {
+        background-color: #E65300; }
+      /* line 22, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+1).current_page_item::before {
+        background-color: #E65300; }
+    /* line 113, sass/misc/_dirty.scss */
+    .main-navigation li:nth-of-type(5n+2) {
+      border-color: #B50A1A; }
+      /* line 17, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+2):hover {
+        background-color: #B50A1A; }
+      /* line 22, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+2).current_page_item::before {
+        background-color: #B50A1A; }
+    /* line 114, sass/misc/_dirty.scss */
+    .main-navigation li:nth-of-type(5n+3) {
+      border-color: #84004F; }
+      /* line 17, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+3):hover {
+        background-color: #84004F; }
+      /* line 22, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+3).current_page_item::before {
+        background-color: #84004F; }
+    /* line 115, sass/misc/_dirty.scss */
+    .main-navigation li:nth-of-type(5n+4) {
+      border-color: #49006C; }
+      /* line 17, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+4):hover {
+        background-color: #49006C; }
+      /* line 22, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+4).current_page_item::before {
+        background-color: #49006C; }
+    /* line 116, sass/misc/_dirty.scss */
+    .main-navigation li:nth-of-type(5n+5) {
+      border-color: #10003A; }
+      /* line 17, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+5):hover {
+        background-color: #10003A; }
+      /* line 22, sass/misc/_dirty.scss */
+      .main-navigation li:nth-of-type(5n+5).current_page_item::before {
+        background-color: #10003A; }
 
-/* line 119, sass/misc/_dirty.scss */
-.nav-menu li:nth-of-type(5n+1) {
-  border-color: #E65300; }
-  /* line 106, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+1):hover {
-    background-color: #E65300; }
-  /* line 111, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+1).current_page_item::before {
-    background-color: #E65300; }
-/* line 120, sass/misc/_dirty.scss */
-.nav-menu li:nth-of-type(5n+2) {
-  border-color: #B50A1A; }
-  /* line 106, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+2):hover {
-    background-color: #B50A1A; }
-  /* line 111, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+2).current_page_item::before {
-    background-color: #B50A1A; }
-/* line 121, sass/misc/_dirty.scss */
-.nav-menu li:nth-of-type(5n+3) {
-  border-color: #84004F; }
-  /* line 106, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+3):hover {
-    background-color: #84004F; }
-  /* line 111, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+3).current_page_item::before {
-    background-color: #84004F; }
-/* line 122, sass/misc/_dirty.scss */
-.nav-menu li:nth-of-type(5n+4) {
-  border-color: #49006C; }
-  /* line 106, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+4):hover {
-    background-color: #49006C; }
-  /* line 111, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+4).current_page_item::before {
-    background-color: #49006C; }
-/* line 123, sass/misc/_dirty.scss */
-.nav-menu li:nth-of-type(5n+5) {
-  border-color: #10003A; }
-  /* line 106, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+5):hover {
-    background-color: #10003A; }
-  /* line 111, sass/misc/_dirty.scss */
-  .nav-menu li:nth-of-type(5n+5).current_page_item::before {
-    background-color: #10003A; }
-
-/* line 129, sass/misc/_dirty.scss */
+/* line 127, sass/misc/_dirty.scss */
 dt {
   color: black; }
 

@@ -1011,7 +1011,8 @@ article.post > header.entry-header > * {
 
 /* line 49, sass/misc/_dirty.scss */
 .main-navigation {
-  margin-top: 4em; }
+  margin-top: 4em;
+  min-height: 100vh; }
   /* line 52, sass/misc/_dirty.scss */
   .main-navigation li {
     z-index: 1;
@@ -1034,62 +1035,70 @@ article.post > header.entry-header > * {
       top: 0;
       opacity: .5;
       z-index: -1; }
-    /* line 81, sass/misc/_dirty.scss */
+    /* line 79, sass/misc/_dirty.scss */
+    .main-navigation li.current_page_item a {
+      color: white; }
+    /* line 84, sass/misc/_dirty.scss */
     .main-navigation li a {
       border-left: none;
-      border-right: none; }
-      /* line 85, sass/misc/_dirty.scss */
+      border-right: none;
+      color: grey; }
+      /* line 89, sass/misc/_dirty.scss */
       .main-navigation li a:focus {
         outline: none; }
 
-/* line 106, sass/misc/_dirty.scss */
+/* line 115, sass/misc/_dirty.scss */
 .background-1 {
   border-color: #E65300; }
-  /* line 95, sass/misc/_dirty.scss */
+  /* line 104, sass/misc/_dirty.scss */
   .background-1:hover {
     background-color: #E65300; }
-  /* line 100, sass/misc/_dirty.scss */
+  /* line 109, sass/misc/_dirty.scss */
   .background-1.current_page_item::before {
     background-color: #E65300; }
 
-/* line 107, sass/misc/_dirty.scss */
+/* line 116, sass/misc/_dirty.scss */
 .background-2 {
   border-color: #B50A1A; }
-  /* line 95, sass/misc/_dirty.scss */
+  /* line 104, sass/misc/_dirty.scss */
   .background-2:hover {
     background-color: #B50A1A; }
-  /* line 100, sass/misc/_dirty.scss */
+  /* line 109, sass/misc/_dirty.scss */
   .background-2.current_page_item::before {
     background-color: #B50A1A; }
 
-/* line 108, sass/misc/_dirty.scss */
+/* line 117, sass/misc/_dirty.scss */
 .background-3 {
   border-color: #84004F; }
-  /* line 95, sass/misc/_dirty.scss */
+  /* line 104, sass/misc/_dirty.scss */
   .background-3:hover {
     background-color: #84004F; }
-  /* line 100, sass/misc/_dirty.scss */
+  /* line 109, sass/misc/_dirty.scss */
   .background-3.current_page_item::before {
     background-color: #84004F; }
 
-/* line 109, sass/misc/_dirty.scss */
+/* line 118, sass/misc/_dirty.scss */
 .background-4 {
   border-color: #49006C; }
-  /* line 95, sass/misc/_dirty.scss */
+  /* line 104, sass/misc/_dirty.scss */
   .background-4:hover {
     background-color: #49006C; }
-  /* line 100, sass/misc/_dirty.scss */
+  /* line 109, sass/misc/_dirty.scss */
   .background-4.current_page_item::before {
     background-color: #49006C; }
 
-/* line 110, sass/misc/_dirty.scss */
+/* line 119, sass/misc/_dirty.scss */
 .background-5 {
   border-color: #10003A; }
-  /* line 95, sass/misc/_dirty.scss */
+  /* line 104, sass/misc/_dirty.scss */
   .background-5:hover {
     background-color: #10003A; }
-  /* line 100, sass/misc/_dirty.scss */
+  /* line 109, sass/misc/_dirty.scss */
   .background-5.current_page_item::before {
     background-color: #10003A; }
+
+/* line 122, sass/misc/_dirty.scss */
+dt {
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */

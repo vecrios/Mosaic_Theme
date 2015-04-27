@@ -76,17 +76,26 @@ article.post > header.entry-header > * {
 				opacity: .5;
 				z-index: -1;
 			}
+			a {
+				color: white;
+			}
 		}
 
 		a {
 			border-left: none;
 			border-right: none;
+			color: grey;
 
 			&:focus {
 				outline: none;
 			}
 		}
 	}
+
+
+	// XXX fixes the sidebar not covering the entire page.
+	// XXX read more about vh and vw
+	min-height: 100vh;
 }
 
 
@@ -108,3 +117,8 @@ article.post > header.entry-header > * {
 .background-3 	{	@include sidebar-item(#84004F) }
 .background-4 	{	@include sidebar-item(#49006C) }
 .background-5 	{	@include sidebar-item(#10003A) }
+
+
+dt {
+	color: black;
+}

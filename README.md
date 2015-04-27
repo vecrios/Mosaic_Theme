@@ -7,6 +7,7 @@ TODO:
 * Add quotation marks around CITE BLOCKQOUTE Q(?)
 * Style tables like PRE? 
 * Tables? 
+* Make main content to the right, sticked to the sidebar
 
 
 BUGS: 

@@ -1025,7 +1025,10 @@ article.post > header.entry-header > * {
       -ms-transition: background 0.3s linear;
       -o-transition: background 0.3s linear;
       transition: background 0.3s linear; }
-    /* line 69, sass/misc/_dirty.scss */
+      /* line 67, sass/misc/_dirty.scss */
+      .main-navigation li:hover a {
+        color: white; }
+    /* line 73, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item::before {
       content: "";
       height: 100%;
@@ -1035,69 +1038,65 @@ article.post > header.entry-header > * {
       top: 0;
       opacity: .5;
       z-index: -1; }
-    /* line 79, sass/misc/_dirty.scss */
+    /* line 83, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item a {
       color: white; }
-    /* line 84, sass/misc/_dirty.scss */
+    /* line 88, sass/misc/_dirty.scss */
     .main-navigation li a {
       border-left: none;
       border-right: none;
       color: grey; }
-      /* line 89, sass/misc/_dirty.scss */
+      /* line 93, sass/misc/_dirty.scss */
       .main-navigation li a:focus {
         outline: none; }
 
-/* line 115, sass/misc/_dirty.scss */
-.background-1 {
-  border-color: #E65300; }
-  /* line 104, sass/misc/_dirty.scss */
-  .background-1:hover {
-    background-color: #E65300; }
-  /* line 109, sass/misc/_dirty.scss */
-  .background-1.current_page_item::before {
-    background-color: #E65300; }
-
-/* line 116, sass/misc/_dirty.scss */
-.background-2 {
-  border-color: #B50A1A; }
-  /* line 104, sass/misc/_dirty.scss */
-  .background-2:hover {
-    background-color: #B50A1A; }
-  /* line 109, sass/misc/_dirty.scss */
-  .background-2.current_page_item::before {
-    background-color: #B50A1A; }
-
-/* line 117, sass/misc/_dirty.scss */
-.background-3 {
-  border-color: #84004F; }
-  /* line 104, sass/misc/_dirty.scss */
-  .background-3:hover {
-    background-color: #84004F; }
-  /* line 109, sass/misc/_dirty.scss */
-  .background-3.current_page_item::before {
-    background-color: #84004F; }
-
-/* line 118, sass/misc/_dirty.scss */
-.background-4 {
-  border-color: #49006C; }
-  /* line 104, sass/misc/_dirty.scss */
-  .background-4:hover {
-    background-color: #49006C; }
-  /* line 109, sass/misc/_dirty.scss */
-  .background-4.current_page_item::before {
-    background-color: #49006C; }
-
 /* line 119, sass/misc/_dirty.scss */
-.background-5 {
+.nav-menu li:nth-of-type(5n+1) {
+  border-color: #E65300; }
+  /* line 106, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+1):hover {
+    background-color: #E65300; }
+  /* line 111, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+1).current_page_item::before {
+    background-color: #E65300; }
+/* line 120, sass/misc/_dirty.scss */
+.nav-menu li:nth-of-type(5n+2) {
+  border-color: #B50A1A; }
+  /* line 106, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+2):hover {
+    background-color: #B50A1A; }
+  /* line 111, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+2).current_page_item::before {
+    background-color: #B50A1A; }
+/* line 121, sass/misc/_dirty.scss */
+.nav-menu li:nth-of-type(5n+3) {
+  border-color: #84004F; }
+  /* line 106, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+3):hover {
+    background-color: #84004F; }
+  /* line 111, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+3).current_page_item::before {
+    background-color: #84004F; }
+/* line 122, sass/misc/_dirty.scss */
+.nav-menu li:nth-of-type(5n+4) {
+  border-color: #49006C; }
+  /* line 106, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+4):hover {
+    background-color: #49006C; }
+  /* line 111, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+4).current_page_item::before {
+    background-color: #49006C; }
+/* line 123, sass/misc/_dirty.scss */
+.nav-menu li:nth-of-type(5n+5) {
   border-color: #10003A; }
-  /* line 104, sass/misc/_dirty.scss */
-  .background-5:hover {
+  /* line 106, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+5):hover {
     background-color: #10003A; }
-  /* line 109, sass/misc/_dirty.scss */
-  .background-5.current_page_item::before {
+  /* line 111, sass/misc/_dirty.scss */
+  .nav-menu li:nth-of-type(5n+5).current_page_item::before {
     background-color: #10003A; }
 
-/* line 122, sass/misc/_dirty.scss */
+/* line 129, sass/misc/_dirty.scss */
 dt {
   color: black; }
 

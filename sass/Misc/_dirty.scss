@@ -63,6 +63,10 @@ article.post > header.entry-header > * {
 	        -ms-transition: background $delay linear;
 	        -o-transition: background $delay linear;
 	        transition: background $delay linear;
+
+	        a {
+	        	color: white;
+	        }
 		}
 
 		&.current_page_item {
@@ -97,8 +101,6 @@ article.post > header.entry-header > * {
 	// XXX read more about vh and vw
 	min-height: 100vh;
 }
-
-
 @mixin sidebar-item($color) {
 	border-color: $color;
 	&:hover  {
@@ -112,11 +114,16 @@ article.post > header.entry-header > * {
 	}
 }
 
-.background-1 	{	@include sidebar-item(#E65300) }
-.background-2 	{	@include sidebar-item(#B50A1A) }
-.background-3 	{	@include sidebar-item(#84004F) }
-.background-4 	{	@include sidebar-item(#49006C) }
-.background-5 	{	@include sidebar-item(#10003A) }
+
+.nav-menu {
+	li:nth-of-type(5n+1)	{	@include sidebar-item(#E65300) }
+	li:nth-of-type(5n+2) 	{	@include sidebar-item(#B50A1A) }
+	li:nth-of-type(5n+3) 	{	@include sidebar-item(#84004F) }
+	li:nth-of-type(5n+4) 	{	@include sidebar-item(#49006C) }
+	li:nth-of-type(5n+5) 	{	@include sidebar-item(#10003A) }
+}
+
+
 
 
 dt {

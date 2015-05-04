@@ -13,6 +13,7 @@ TODO:
 * Find a way to disable multi-leveling in sidebar contents
 * Line separators between posts
 * Change headers' fonts to follow titles. 
+* Adhere to all standards/conventions for language translation
 
 
 BUGS: 

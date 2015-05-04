@@ -14,6 +14,23 @@ function underscores_theme_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
+
+
+	$wp_customize->add_setting(
+	    'sidebar_subtitle',
+	    array(
+	        'default' => 'Welcome!',
+	        'sanitize_callback' => 'underscores_theme_sanitize_text',
+	    )
+	);
+
+	$wp_customize->add_control(
+	    'sidebar_subtitle',
+	    array(
+	        'label' => 'Sidebar Subtitle',
+	        'section' => 'title_tagline',
+	    )
+	);
 }
 add_action( 'customize_register', 'underscores_theme_customize_register' );
 
@@ -24,3 +41,12 @@ function underscores_theme_customize_preview_js() {
 	wp_enqueue_script( 'underscores_theme_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
 }
 add_action( 'customize_preview_init', 'underscores_theme_customize_preview_js' );
+
+
+
+/**
+ * Sanitize inpue before saving
+ */
+function underscores_theme_sanitize_text( $input ) {
+    return wp_kses_post( force_balance_tags( $input ) );
+}

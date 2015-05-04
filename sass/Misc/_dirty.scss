@@ -113,7 +113,7 @@ article > header.entry-header > * {
 			}
 		}
 
-		&:nth-of-type(5n+1)	{	@include sidebar-item(#E65300) }
+		&:nth-of-type(5n+1)		{	@include sidebar-item(#E65300) }
 		&:nth-of-type(5n+2) 	{	@include sidebar-item(#B50A1A) }
 		&:nth-of-type(5n+3) 	{	@include sidebar-item(#84004F) }
 		&:nth-of-type(5n+4) 	{	@include sidebar-item(#49006C) }

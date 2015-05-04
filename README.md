@@ -11,6 +11,8 @@ TODO:
 * Comments? 
 * Language support? Arabic? 
 * Find a way to disable multi-leveling in sidebar contents
+* Line separators between posts
+* Change headers' fonts to follow titles. 
 
 
 BUGS: 

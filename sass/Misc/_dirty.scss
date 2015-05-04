@@ -28,7 +28,7 @@
 .entry-title {
 	font-size: 2.75em;
 	color: $color__title;
-	font-weight: lighter;
+	font-weight: 300;
 
 	a {
 		color: $color__title;
@@ -51,6 +51,8 @@ a {
 article > header.entry-header > * {
 	text-align: center;
 	display: block;
+
+	font-family: $font__entry-header;
 }
 
 .entry-content {
@@ -64,6 +66,8 @@ article > header.entry-header > * {
 	margin-top: 4em;
 
 	li {
+		font-family: $font__sidebar-items;
+
 		z-index: 1;
 
 		border-left-width: 6px;
@@ -120,6 +124,18 @@ article > header.entry-header > * {
 	// XXX fixes the sidebar not covering the entire page.
 	// XXX read more about vh and vw
 	min-height: 100vh;
+
+
+
+	// find better coloring/font-size
+	// moccasin
+	// antiquewhite
+	// maroon
+	.site-sub {
+		font-size: 1.1em;
+		padding-top: 0.4em;
+		color: moccasin;
+	}
 }
 
 

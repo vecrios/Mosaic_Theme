@@ -91,7 +91,7 @@ html {
 
 /* line 31, sass/_reset.scss */
 body {
-  background: #fff;
+  background: #F2F2F2;
   /* Fallback for when there is no custom background color defined. */ }
 
 /* line 34, sass/_reset.scss */
@@ -258,7 +258,7 @@ big {
 
 /* line 66, sass/typography/_copy.scss */
 pre, blockquote {
-  background: black;
+  background: #171717;
   color: white;
   margin-left: -5%;
   margin-right: -5%;
@@ -747,26 +747,27 @@ a {
 --------------------------------------------------------------*/
 /* line 3, sass/site/nav/_menus.scss */
 .main-navigation {
-  background-color: black;
+  background-color: #171717;
   clear: both;
   display: block;
   position: relative;
   padding-bottom: 3em; }
   /* line 12, sass/site/nav/_menus.scss */
   .main-navigation .site-branding {
-    padding: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-    /* line 17, sass/site/nav/_menus.scss */
+    padding: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center; }
+    /* line 18, sass/site/nav/_menus.scss */
     .main-navigation .site-branding .site-description {
       font-size: 1.3em;
       color: white; }
-  /* line 25, sass/site/nav/_menus.scss */
+  /* line 26, sass/site/nav/_menus.scss */
   .main-navigation ul {
     list-style: none;
     margin: 0;
     padding-left: 0; }
-    /* line 30, sass/site/nav/_menus.scss */
+    /* line 31, sass/site/nav/_menus.scss */
     .main-navigation ul ul {
       display: none;
       /* 
@@ -798,17 +799,17 @@ a {
       			a:hover {
       			}
       			 */ }
-    /* line 67, sass/site/nav/_menus.scss */
+    /* line 68, sass/site/nav/_menus.scss */
     .main-navigation ul li:hover > ul {
       left: auto; }
-  /* line 71, sass/site/nav/_menus.scss */
+  /* line 72, sass/site/nav/_menus.scss */
   .main-navigation li {
     position: relative;
     min-height: 40px;
     width: 100%;
     text-align: center;
     display: table; }
-  /* line 82, sass/site/nav/_menus.scss */
+  /* line 83, sass/site/nav/_menus.scss */
   .main-navigation a {
     display: table-cell;
     text-decoration: none;
@@ -816,7 +817,7 @@ a {
     height: 100%;
     padding: 4px;
     color: white; }
-  /* line 98, sass/site/nav/_menus.scss */
+  /* line 99, sass/site/nav/_menus.scss */
   .main-navigation .site-info .copyright {
     position: absolute;
     bottom: 0;
@@ -830,34 +831,34 @@ a {
     width: 100%; }
 
 /* Small menu */
-/* line 115, sass/site/nav/_menus.scss */
+/* line 116, sass/site/nav/_menus.scss */
 .menu-toggle {
   display: none; }
 
 @media screen and (max-width: 600px) {
-  /* line 120, sass/site/nav/_menus.scss */
+  /* line 121, sass/site/nav/_menus.scss */
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block; }
 
-  /* line 125, sass/site/nav/_menus.scss */
+  /* line 126, sass/site/nav/_menus.scss */
   .main-navigation ul {
     display: none; } }
-/* line 130, sass/site/nav/_menus.scss */
+/* line 131, sass/site/nav/_menus.scss */
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden; }
 
-/* line 137, sass/site/nav/_menus.scss */
+/* line 138, sass/site/nav/_menus.scss */
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%; }
 
-/* line 144, sass/site/nav/_menus.scss */
+/* line 145, sass/site/nav/_menus.scss */
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
 .post-navigation .nav-next {
@@ -977,7 +978,7 @@ DIRTYYYYYYYYYYYYY FOR QUICK MODIFICATIONS
 .entry-title {
   font-size: 2.75em;
   color: #2C2C2C;
-  font-weight: lighter; }
+  font-weight: 300; }
   /* line 33, sass/misc/_dirty.scss */
   .entry-title a {
     color: #2C2C2C; }
@@ -997,36 +998,38 @@ a {
 /* line 51, sass/misc/_dirty.scss */
 article > header.entry-header > * {
   text-align: center;
-  display: block; }
+  display: block;
+  font-family: "Lato", "Open Sans", sans-serif; }
 
-/* line 56, sass/misc/_dirty.scss */
+/* line 58, sass/misc/_dirty.scss */
 .entry-content {
   font-size: 12px;
   font-size: 1.2rem; }
-  /* line 58, sass/misc/_dirty.scss */
+  /* line 60, sass/misc/_dirty.scss */
   .entry-content a {
     font-weight: bold; }
 
-/* line 63, sass/misc/_dirty.scss */
+/* line 65, sass/misc/_dirty.scss */
 .main-navigation {
   margin-top: 4em;
   min-height: 100vh; }
-  /* line 66, sass/misc/_dirty.scss */
+  /* line 68, sass/misc/_dirty.scss */
   .main-navigation li {
+    font-family: "PT Sans", "Open Sans", sans-serif;
     z-index: 1;
     border-left-width: 6px;
     border-left-style: solid; }
-    /* line 73, sass/misc/_dirty.scss */
+    /* line 77, sass/misc/_dirty.scss */
     .main-navigation li:hover {
       -webkit-transition: background 0.3s linear;
       -moz-transition: background 0.3s linear;
       -ms-transition: background 0.3s linear;
       -o-transition: background 0.3s linear;
       transition: background 0.3s linear; }
-      /* line 81, sass/misc/_dirty.scss */
+      /* line 85, sass/misc/_dirty.scss */
       .main-navigation li:hover a {
         color: white; }
-    /* line 87, sass/misc/_dirty.scss */
+    /* line 91, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item::before {
       content: "";
       height: 100%;
@@ -1036,18 +1039,18 @@ article > header.entry-header > * {
       top: 0;
       opacity: .5;
       z-index: -1; }
-    /* line 97, sass/misc/_dirty.scss */
+    /* line 101, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item a {
       color: white; }
-    /* line 102, sass/misc/_dirty.scss */
+    /* line 106, sass/misc/_dirty.scss */
     .main-navigation li a {
       border-left: none;
       border-right: none;
       color: grey; }
-      /* line 107, sass/misc/_dirty.scss */
+      /* line 111, sass/misc/_dirty.scss */
       .main-navigation li a:focus {
         outline: none; }
-    /* line 112, sass/misc/_dirty.scss */
+    /* line 116, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+1) {
       border-color: #E65300; }
       /* line 17, sass/misc/_dirty.scss */
@@ -1056,7 +1059,7 @@ article > header.entry-header > * {
       /* line 22, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+1).current_page_item::before {
         background-color: #E65300; }
-    /* line 113, sass/misc/_dirty.scss */
+    /* line 117, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+2) {
       border-color: #B50A1A; }
       /* line 17, sass/misc/_dirty.scss */
@@ -1065,7 +1068,7 @@ article > header.entry-header > * {
       /* line 22, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+2).current_page_item::before {
         background-color: #B50A1A; }
-    /* line 114, sass/misc/_dirty.scss */
+    /* line 118, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+3) {
       border-color: #84004F; }
       /* line 17, sass/misc/_dirty.scss */
@@ -1074,7 +1077,7 @@ article > header.entry-header > * {
       /* line 22, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+3).current_page_item::before {
         background-color: #84004F; }
-    /* line 115, sass/misc/_dirty.scss */
+    /* line 119, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+4) {
       border-color: #49006C; }
       /* line 17, sass/misc/_dirty.scss */
@@ -1083,7 +1086,7 @@ article > header.entry-header > * {
       /* line 22, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+4).current_page_item::before {
         background-color: #49006C; }
-    /* line 116, sass/misc/_dirty.scss */
+    /* line 120, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+5) {
       border-color: #10003A; }
       /* line 17, sass/misc/_dirty.scss */
@@ -1092,8 +1095,13 @@ article > header.entry-header > * {
       /* line 22, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+5).current_page_item::before {
         background-color: #10003A; }
+  /* line 134, sass/misc/_dirty.scss */
+  .main-navigation .site-sub {
+    font-size: 1.1em;
+    padding-top: 0.4em;
+    color: moccasin; }
 
-/* line 127, sass/misc/_dirty.scss */
+/* line 143, sass/misc/_dirty.scss */
 dt {
   color: black; }
 

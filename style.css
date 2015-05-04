@@ -1106,4 +1106,13 @@ article > header.entry-header > * {
 dt {
   color: black; }
 
+/* line 149, sass/misc/_dirty.scss */
+article + article::before {
+  margin-bottom: 2em;
+  content: "";
+  display: block;
+  height: 1px;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#F2F2F2), to(#F2F2F2), color-stop(50%, #b2b2b2));
+  opacity: 0.5; }
+
 /*# sourceMappingURL=style.css.map */

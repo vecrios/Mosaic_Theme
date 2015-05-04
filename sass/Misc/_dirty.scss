@@ -143,3 +143,15 @@ article > header.entry-header > * {
 dt {
 	color: black;
 }
+
+
+article + article {
+	&::before {
+		margin-bottom: 2em;
+		content: "";
+		display: block;
+		height: 1px;
+		background: -webkit-gradient(linear, 0 0, 100% 0, from($color__background-body), to($color__background-body), color-stop(50%, #b2b2b2));
+		opacity: 0.5;
+	}
+}

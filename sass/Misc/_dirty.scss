@@ -117,7 +117,7 @@ article > header.entry-header > * {
 		&:nth-of-type(5n+2) 	{	@include sidebar-item(#B50A1A) }
 		&:nth-of-type(5n+3) 	{	@include sidebar-item(#84004F) }
 		&:nth-of-type(5n+4) 	{	@include sidebar-item(#49006C) }
-		&:nth-of-type(5n+5) 	{	@include sidebar-item(#10003A) }
+		&:nth-of-type(5n+5) 	{	@include sidebar-item(#8A9B0F) } // or #10003A ?
 	}
 
 
@@ -134,7 +134,7 @@ article > header.entry-header > * {
 	.site-sub {
 		font-size: 1.1em;
 		padding-top: 0.4em;
-		color: moccasin;
+		color: $color__sidebar-subtitle;
 	}
 }
 

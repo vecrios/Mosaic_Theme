@@ -761,13 +761,14 @@ a {
     /* line 18, sass/site/nav/_menus.scss */
     .main-navigation .site-branding .site-description {
       font-size: 1.3em;
-      color: white; }
-  /* line 26, sass/site/nav/_menus.scss */
+      color: white;
+      text-transform: uppercase; }
+  /* line 27, sass/site/nav/_menus.scss */
   .main-navigation ul {
     list-style: none;
     margin: 0;
     padding-left: 0; }
-    /* line 31, sass/site/nav/_menus.scss */
+    /* line 32, sass/site/nav/_menus.scss */
     .main-navigation ul ul {
       display: none;
       /* 
@@ -799,17 +800,17 @@ a {
       			a:hover {
       			}
       			 */ }
-    /* line 68, sass/site/nav/_menus.scss */
+    /* line 69, sass/site/nav/_menus.scss */
     .main-navigation ul li:hover > ul {
       left: auto; }
-  /* line 72, sass/site/nav/_menus.scss */
+  /* line 73, sass/site/nav/_menus.scss */
   .main-navigation li {
     position: relative;
     min-height: 40px;
     width: 100%;
     text-align: center;
     display: table; }
-  /* line 83, sass/site/nav/_menus.scss */
+  /* line 84, sass/site/nav/_menus.scss */
   .main-navigation a {
     display: table-cell;
     text-decoration: none;
@@ -817,7 +818,7 @@ a {
     height: 100%;
     padding: 4px;
     color: white; }
-  /* line 99, sass/site/nav/_menus.scss */
+  /* line 100, sass/site/nav/_menus.scss */
   .main-navigation .site-info .copyright {
     position: absolute;
     bottom: 0;
@@ -831,34 +832,34 @@ a {
     width: 100%; }
 
 /* Small menu */
-/* line 116, sass/site/nav/_menus.scss */
+/* line 117, sass/site/nav/_menus.scss */
 .menu-toggle {
   display: none; }
 
 @media screen and (max-width: 600px) {
-  /* line 121, sass/site/nav/_menus.scss */
+  /* line 122, sass/site/nav/_menus.scss */
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block; }
 
-  /* line 126, sass/site/nav/_menus.scss */
+  /* line 127, sass/site/nav/_menus.scss */
   .main-navigation ul {
     display: none; } }
-/* line 131, sass/site/nav/_menus.scss */
+/* line 132, sass/site/nav/_menus.scss */
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden; }
 
-/* line 138, sass/site/nav/_menus.scss */
+/* line 139, sass/site/nav/_menus.scss */
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%; }
 
-/* line 145, sass/site/nav/_menus.scss */
+/* line 146, sass/site/nav/_menus.scss */
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
 .post-navigation .nav-next {
@@ -1088,18 +1089,18 @@ article > header.entry-header > * {
         background-color: #49006C; }
     /* line 120, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+5) {
-      border-color: #10003A; }
+      border-color: #8A9B0F; }
       /* line 17, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+5):hover {
-        background-color: #10003A; }
+        background-color: #8A9B0F; }
       /* line 22, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+5).current_page_item::before {
-        background-color: #10003A; }
+        background-color: #8A9B0F; }
   /* line 134, sass/misc/_dirty.scss */
   .main-navigation .site-sub {
     font-size: 1.1em;
     padding-top: 0.4em;
-    color: moccasin; }
+    color: #60B99A; }
 
 /* line 143, sass/misc/_dirty.scss */
 dt {

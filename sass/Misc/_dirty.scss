@@ -120,13 +120,6 @@ article > header.entry-header > * {
 		&:nth-of-type(5n+5) 	{	@include sidebar-item(#8A9B0F) } // or #10003A ?
 	}
 
-
-	// XXX fixes the sidebar not covering the entire page.
-	// XXX read more about vh and vw
-	min-height: 100vh;
-
-
-
 	// find better coloring/font-size
 	// moccasin
 	// antiquewhite
@@ -154,4 +147,13 @@ article + article {
 		background: -webkit-gradient(linear, 0 0, 100% 0, from($color__background-body), to($color__background-body), color-stop(50%, #b2b2b2));
 		opacity: 0.5;
 	}
+}
+
+
+
+// TODO: use clearfix mixin
+nav::after {
+	content: "";
+	clear: both;
+	display: block;
 }

@@ -1,6 +1,11 @@
 $footer-height: 3em;
 
 .main-navigation {
+
+	// XXX fixes the sidebar not covering the entire page.
+	// XXX read more about vh and vw
+	min-height: 100vh;
+
 	background-color: $color__background-sidebar;
 
 	clear: both;
@@ -119,14 +124,33 @@ $footer-height: 3em;
 }
 
 @media screen and (max-width: $size__mobile-max-width) {
-	.menu-toggle,
-	.main-navigation.toggled .nav-menu {
-		display: block;
+	.main-navigation  {
+		min-height: 0vh;
+		ul {
+			li {
+				width: auto;
+				float: left;
+				padding: 0.8em;
+				padding-bottom: .3em;
+	  			padding-top: .3em;
+
+				border: none;
+				border-bottom-style: solid;
+				border-bottom-width: 10px;
+
+
+
+
+				&:nth-of-type(5n+1)::before		{	border-color: #E65300; }
+				&:nth-of-type(5n+2)::before 	{	border-color: #B50A1A; }
+				&:nth-of-type(5n+3)::before 	{	border-color: #84004F; }
+				&:nth-of-type(5n+4)::before 	{	border-color: #49006C; }
+				&:nth-of-type(5n+5)::before 	{	border-color: #8A9B0F; }
+
+			}
+		}
 	}
 
-	.main-navigation ul {
-		display: none;
-	}
 }
 
 .site-main .comment-navigation,

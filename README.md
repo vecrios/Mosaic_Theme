@@ -15,6 +15,8 @@ TODO:
 * Change headers' fonts to follow titles. 
 * Adhere to all standards/conventions for language translation
 
+* Remove primary button java script shit
+
 
 BUGS: 
 * ABOUT PAGE: bug with sidebar not taking the whole page

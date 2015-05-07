@@ -14,7 +14,6 @@ TODO:
 * Line separators between posts
 * Change headers' fonts to follow titles. 
 * Adhere to all standards/conventions for language translation
-
 * Remove primary button java script shit
 
 
@@ -22,3 +21,6 @@ BUGS:
 * ABOUT PAGE: bug with sidebar not taking the whole page
 * Sample Page: blockqoutes overlap the sidebar (should be fixed with z-index)
 	* fixed for now. z-index implemented on li. Do it on whole div? 
+
+
+IDEAS:

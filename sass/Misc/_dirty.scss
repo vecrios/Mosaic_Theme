@@ -1,17 +1,4 @@
 /* ------------------------------------------ */
-/* TURKI: */
-#page > * {
-	// border: 4px solid maroon;
-}
-
-#primary, #masthead > *, footer .site-info {
-	// border: 3px solid blue;
-}
-
-
-
-
-
 @mixin sidebar-item($color) {
 	border-color: $color;
 	&:hover  {
@@ -48,12 +35,17 @@ a {
 }
 
 
-article > header.entry-header > * {
-	text-align: center;
-	display: block;
+article > header.entry-header  {
+	> * {
+		text-align: center;
+		display: block;
 
-	font-family: $font__entry-header;
+		font-family: $font__entry-header;
+	}
 }
+
+
+
 
 .entry-content {
 	@include font-size(1.2);
@@ -128,6 +120,8 @@ article > header.entry-header > * {
 		font-size: 1.1em;
 		padding-top: 0.4em;
 		color: $color__sidebar-subtitle;
+		font-weight: 300;
+
 	}
 }
 

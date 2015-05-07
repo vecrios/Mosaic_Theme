@@ -995,62 +995,61 @@ object {
 DIRTYYYYYYYYYYYYY FOR QUICK MODIFICATIONS
 --------------------------------------------------------------*/
 /* ------------------------------------------ */
-/* TURKI: */
-/* line 28, sass/misc/_dirty.scss */
+/* line 15, sass/misc/_dirty.scss */
 .entry-title {
   font-size: 2.75em;
   color: #2C2C2C;
   font-weight: 300; }
-  /* line 33, sass/misc/_dirty.scss */
+  /* line 20, sass/misc/_dirty.scss */
   .entry-title a {
     color: #2C2C2C; }
-    /* line 35, sass/misc/_dirty.scss */
+    /* line 22, sass/misc/_dirty.scss */
     .entry-title a:hover {
       color: #808080; }
 
-/* line 41, sass/misc/_dirty.scss */
+/* line 28, sass/misc/_dirty.scss */
 a {
   text-decoration: none; }
 
-/* line 45, sass/misc/_dirty.scss */
+/* line 32, sass/misc/_dirty.scss */
 .entry-meta {
   font-size: 0.7em;
   font-weight: 500; }
 
-/* line 51, sass/misc/_dirty.scss */
+/* line 39, sass/misc/_dirty.scss */
 article > header.entry-header > * {
   text-align: center;
   display: block;
   font-family: "Lato", "Open Sans", sans-serif; }
 
-/* line 58, sass/misc/_dirty.scss */
+/* line 50, sass/misc/_dirty.scss */
 .entry-content {
   font-size: 12px;
   font-size: 1.2rem; }
-  /* line 60, sass/misc/_dirty.scss */
+  /* line 52, sass/misc/_dirty.scss */
   .entry-content a {
     font-weight: bold; }
 
-/* line 65, sass/misc/_dirty.scss */
+/* line 57, sass/misc/_dirty.scss */
 .main-navigation {
   margin-top: 4em; }
-  /* line 68, sass/misc/_dirty.scss */
+  /* line 60, sass/misc/_dirty.scss */
   .main-navigation li {
     font-family: "PT Sans", "Open Sans", sans-serif;
     z-index: 1;
     border-left-width: 6px;
     border-left-style: solid; }
-    /* line 77, sass/misc/_dirty.scss */
+    /* line 69, sass/misc/_dirty.scss */
     .main-navigation li:hover {
       -webkit-transition: background 0.3s linear;
       -moz-transition: background 0.3s linear;
       -ms-transition: background 0.3s linear;
       -o-transition: background 0.3s linear;
       transition: background 0.3s linear; }
-      /* line 85, sass/misc/_dirty.scss */
+      /* line 77, sass/misc/_dirty.scss */
       .main-navigation li:hover a {
         color: white; }
-    /* line 91, sass/misc/_dirty.scss */
+    /* line 83, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item::before {
       content: "";
       height: 100%;
@@ -1060,73 +1059,74 @@ article > header.entry-header > * {
       top: 0;
       opacity: .5;
       z-index: -1; }
-    /* line 101, sass/misc/_dirty.scss */
+    /* line 93, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item a {
       color: white; }
-    /* line 106, sass/misc/_dirty.scss */
+    /* line 98, sass/misc/_dirty.scss */
     .main-navigation li a {
       border-left: none;
       border-right: none;
       color: grey; }
-      /* line 111, sass/misc/_dirty.scss */
+      /* line 103, sass/misc/_dirty.scss */
       .main-navigation li a:focus {
         outline: none; }
-    /* line 116, sass/misc/_dirty.scss */
+    /* line 108, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+1) {
       border-color: #E65300; }
-      /* line 17, sass/misc/_dirty.scss */
+      /* line 4, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+1):hover {
         background-color: #E65300; }
-      /* line 22, sass/misc/_dirty.scss */
+      /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+1).current_page_item::before {
         background-color: #E65300; }
-    /* line 117, sass/misc/_dirty.scss */
+    /* line 109, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+2) {
       border-color: #B50A1A; }
-      /* line 17, sass/misc/_dirty.scss */
+      /* line 4, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+2):hover {
         background-color: #B50A1A; }
-      /* line 22, sass/misc/_dirty.scss */
+      /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+2).current_page_item::before {
         background-color: #B50A1A; }
-    /* line 118, sass/misc/_dirty.scss */
+    /* line 110, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+3) {
       border-color: #84004F; }
-      /* line 17, sass/misc/_dirty.scss */
+      /* line 4, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+3):hover {
         background-color: #84004F; }
-      /* line 22, sass/misc/_dirty.scss */
+      /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+3).current_page_item::before {
         background-color: #84004F; }
-    /* line 119, sass/misc/_dirty.scss */
+    /* line 111, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+4) {
       border-color: #49006C; }
-      /* line 17, sass/misc/_dirty.scss */
+      /* line 4, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+4):hover {
         background-color: #49006C; }
-      /* line 22, sass/misc/_dirty.scss */
+      /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+4).current_page_item::before {
         background-color: #49006C; }
-    /* line 120, sass/misc/_dirty.scss */
+    /* line 112, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+5) {
       border-color: #8A9B0F; }
-      /* line 17, sass/misc/_dirty.scss */
+      /* line 4, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+5):hover {
         background-color: #8A9B0F; }
-      /* line 22, sass/misc/_dirty.scss */
+      /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+5).current_page_item::before {
         background-color: #8A9B0F; }
-  /* line 127, sass/misc/_dirty.scss */
+  /* line 119, sass/misc/_dirty.scss */
   .main-navigation .site-sub {
     font-size: 1.1em;
     padding-top: 0.4em;
-    color: #60B99A; }
+    color: #60B99A;
+    font-weight: 300; }
 
-/* line 136, sass/misc/_dirty.scss */
+/* line 130, sass/misc/_dirty.scss */
 dt {
   color: black; }
 
-/* line 142, sass/misc/_dirty.scss */
+/* line 136, sass/misc/_dirty.scss */
 article + article::before {
   margin-bottom: 2em;
   content: "";
@@ -1135,7 +1135,7 @@ article + article::before {
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#F2F2F2), to(#F2F2F2), color-stop(50%, #b2b2b2));
   opacity: 0.5; }
 
-/* line 155, sass/misc/_dirty.scss */
+/* line 149, sass/misc/_dirty.scss */
 nav::after {
   content: "";
   clear: both;

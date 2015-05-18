@@ -2,7 +2,7 @@
 // @import "../layout/sidebar-content";
 
 
-@media all and (min-width: 800px) {
+@media all and (min-width: $size__mobile-max-width) {
 	.site {
 		@include flexbox;
 

@@ -38,8 +38,7 @@ mark, ins {
 	text-decoration: none;
 }
 
-sup,
-sub {
+sup, sub {
 	font-size: 75%;
 	height: 0;
 	line-height: 0;
@@ -79,22 +78,18 @@ pre, blockquote {
 }
 
 cite {
-	width: 100%;
-	display: block;
-	text-align: right;
-
 	blockquote & {
 		font-weight: 100;
 		font-size: 0.7em;
 		padding-top: .6em;
 	}
 
-	:not(blockquote) & {
+	:not(blockquote) > p > & {
 		font-weight: bold;
 		font-size: 0.9em;
-		margin-top: -2em;
 	}
 }
+
 blockquote {
 	quotes: "\201C" "\201D" "\2018" "\2019";
 	position: relative;
@@ -110,7 +105,6 @@ blockquote {
 		font-family: "Times New Roman";
 		top: 0.1em;
 		font-weight: bold;
-
 		color: grey;
 	}
 
@@ -118,7 +112,6 @@ blockquote {
 	    content: no-close-quote;
 	}
 }
-
 
 q {
 	quotes: "\201C" "\201D" "\2018" "\2019";

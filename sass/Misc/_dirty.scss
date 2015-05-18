@@ -44,13 +44,11 @@ article > header.entry-header  {
 	}
 }
 
-
-
-
 .entry-content {
 	@include font-size(1.2);
 	a {
 		font-weight: bold;
+		text-decoration: underline;
 	}
 }
 
@@ -113,9 +111,6 @@ article > header.entry-header  {
 	}
 
 	// find better coloring/font-size
-	// moccasin
-	// antiquewhite
-	// maroon
 	.site-sub {
 		font-size: 1.1em;
 		padding-top: 0.4em;

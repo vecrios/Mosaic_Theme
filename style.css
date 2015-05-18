@@ -232,31 +232,30 @@ mark, ins {
   text-decoration: none; }
 
 /* line 41, sass/typography/_copy.scss */
-sup,
-sub {
+sup, sub {
   font-size: 75%;
   height: 0;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 50, sass/typography/_copy.scss */
+/* line 49, sass/typography/_copy.scss */
 sup {
   bottom: 1ex; }
 
-/* line 54, sass/typography/_copy.scss */
+/* line 53, sass/typography/_copy.scss */
 sub {
   top: .5ex; }
 
-/* line 58, sass/typography/_copy.scss */
+/* line 57, sass/typography/_copy.scss */
 small {
   font-size: 75%; }
 
-/* line 62, sass/typography/_copy.scss */
+/* line 61, sass/typography/_copy.scss */
 big {
   font-size: 125%; }
 
-/* line 66, sass/typography/_copy.scss */
+/* line 65, sass/typography/_copy.scss */
 pre, blockquote {
   background: #171717;
   color: white;
@@ -269,29 +268,23 @@ pre, blockquote {
   padding: 1.6em; }
 
 /* line 81, sass/typography/_copy.scss */
-cite {
-  width: 100%;
-  display: block;
-  text-align: right; }
-  /* line 86, sass/typography/_copy.scss */
-  blockquote cite {
-    font-weight: 100;
-    font-size: 0.7em;
-    padding-top: .6em; }
-  /* line 92, sass/typography/_copy.scss */
-  :not(blockquote) cite {
-    font-weight: bold;
-    font-size: 0.9em;
-    margin-top: -2em; }
+blockquote cite {
+  font-weight: 100;
+  font-size: 0.7em;
+  padding-top: .6em; }
+/* line 87, sass/typography/_copy.scss */
+:not(blockquote) > p > cite {
+  font-weight: bold;
+  font-size: 0.9em; }
 
-/* line 98, sass/typography/_copy.scss */
+/* line 93, sass/typography/_copy.scss */
 blockquote {
   quotes: "\201C" "\201D" "\2018" "\2019";
   position: relative; }
-  /* line 102, sass/typography/_copy.scss */
+  /* line 97, sass/typography/_copy.scss */
   blockquote p {
     padding-left: 2em; }
-  /* line 106, sass/typography/_copy.scss */
+  /* line 101, sass/typography/_copy.scss */
   blockquote:before {
     content: open-quote;
     font-size: 3em;
@@ -300,20 +293,20 @@ blockquote {
     top: 0.1em;
     font-weight: bold;
     color: grey; }
-  /* line 117, sass/typography/_copy.scss */
+  /* line 111, sass/typography/_copy.scss */
   blockquote:after {
     content: no-close-quote; }
 
-/* line 123, sass/typography/_copy.scss */
+/* line 116, sass/typography/_copy.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
-  /* line 126, sass/typography/_copy.scss */
+  /* line 119, sass/typography/_copy.scss */
   q:before {
     content: open-quote; }
-  /* line 130, sass/typography/_copy.scss */
+  /* line 123, sass/typography/_copy.scss */
   q:after {
     content: close-quote; }
-  /* line 134, sass/typography/_copy.scss */
+  /* line 127, sass/typography/_copy.scss */
   q:before, q:after {
     font-size: 1.5em;
     font-family: "Times New Roman";
@@ -758,18 +751,19 @@ a {
     padding: 1em;
     padding-top: 3em;
     padding-bottom: 3em;
-    text-align: center; }
-    /* line 23, sass/site/nav/_menus.scss */
+    text-align: center;
+    background-color: black; }
+    /* line 25, sass/site/nav/_menus.scss */
     .main-navigation .site-branding .site-description {
       font-size: 1.3em;
       color: white;
       text-transform: uppercase; }
-  /* line 32, sass/site/nav/_menus.scss */
+  /* line 34, sass/site/nav/_menus.scss */
   .main-navigation ul {
     list-style: none;
     margin: 0;
     padding-left: 0; }
-    /* line 37, sass/site/nav/_menus.scss */
+    /* line 39, sass/site/nav/_menus.scss */
     .main-navigation ul ul {
       display: none;
       /* 
@@ -800,18 +794,18 @@ a {
       
       			a:hover {
       			}
-      			 */ }
-    /* line 74, sass/site/nav/_menus.scss */
+      */ }
+    /* line 75, sass/site/nav/_menus.scss */
     .main-navigation ul li:hover > ul {
       left: auto; }
-  /* line 78, sass/site/nav/_menus.scss */
+  /* line 80, sass/site/nav/_menus.scss */
   .main-navigation li {
     position: relative;
     min-height: 40px;
     width: 100%;
     text-align: center;
     display: table; }
-  /* line 89, sass/site/nav/_menus.scss */
+  /* line 92, sass/site/nav/_menus.scss */
   .main-navigation a {
     display: table-cell;
     text-decoration: none;
@@ -819,7 +813,7 @@ a {
     height: 100%;
     padding: 4px;
     color: white; }
-  /* line 105, sass/site/nav/_menus.scss */
+  /* line 108, sass/site/nav/_menus.scss */
   .main-navigation .site-info .copyright {
     position: absolute;
     bottom: 0;
@@ -833,15 +827,15 @@ a {
     width: 100%; }
 
 /* Small menu */
-/* line 122, sass/site/nav/_menus.scss */
+/* line 125, sass/site/nav/_menus.scss */
 .menu-toggle {
   display: none; }
 
-@media screen and (max-width: 800px) {
-  /* line 127, sass/site/nav/_menus.scss */
+@media all and (max-width: 800px) {
+  /* line 130, sass/site/nav/_menus.scss */
   .main-navigation {
     min-height: 0vh; }
-    /* line 130, sass/site/nav/_menus.scss */
+    /* line 133, sass/site/nav/_menus.scss */
     .main-navigation ul li {
       width: auto;
       float: left;
@@ -1022,34 +1016,35 @@ article > header.entry-header > * {
   display: block;
   font-family: "Lato", "Open Sans", sans-serif; }
 
-/* line 50, sass/misc/_dirty.scss */
+/* line 47, sass/misc/_dirty.scss */
 .entry-content {
   font-size: 12px;
   font-size: 1.2rem; }
-  /* line 52, sass/misc/_dirty.scss */
+  /* line 49, sass/misc/_dirty.scss */
   .entry-content a {
-    font-weight: bold; }
+    font-weight: bold;
+    text-decoration: underline; }
 
-/* line 57, sass/misc/_dirty.scss */
+/* line 55, sass/misc/_dirty.scss */
 .main-navigation {
   margin-top: 4em; }
-  /* line 60, sass/misc/_dirty.scss */
+  /* line 58, sass/misc/_dirty.scss */
   .main-navigation li {
     font-family: "PT Sans", "Open Sans", sans-serif;
     z-index: 1;
     border-left-width: 6px;
     border-left-style: solid; }
-    /* line 69, sass/misc/_dirty.scss */
+    /* line 67, sass/misc/_dirty.scss */
     .main-navigation li:hover {
       -webkit-transition: background 0.3s linear;
       -moz-transition: background 0.3s linear;
       -ms-transition: background 0.3s linear;
       -o-transition: background 0.3s linear;
       transition: background 0.3s linear; }
-      /* line 77, sass/misc/_dirty.scss */
+      /* line 75, sass/misc/_dirty.scss */
       .main-navigation li:hover a {
         color: white; }
-    /* line 83, sass/misc/_dirty.scss */
+    /* line 81, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item::before {
       content: "";
       height: 100%;
@@ -1059,18 +1054,18 @@ article > header.entry-header > * {
       top: 0;
       opacity: .5;
       z-index: -1; }
-    /* line 93, sass/misc/_dirty.scss */
+    /* line 91, sass/misc/_dirty.scss */
     .main-navigation li.current_page_item a {
       color: white; }
-    /* line 98, sass/misc/_dirty.scss */
+    /* line 96, sass/misc/_dirty.scss */
     .main-navigation li a {
       border-left: none;
       border-right: none;
       color: grey; }
-      /* line 103, sass/misc/_dirty.scss */
+      /* line 101, sass/misc/_dirty.scss */
       .main-navigation li a:focus {
         outline: none; }
-    /* line 108, sass/misc/_dirty.scss */
+    /* line 106, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+1) {
       border-color: #E65300; }
       /* line 4, sass/misc/_dirty.scss */
@@ -1079,7 +1074,7 @@ article > header.entry-header > * {
       /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+1).current_page_item::before {
         background-color: #E65300; }
-    /* line 109, sass/misc/_dirty.scss */
+    /* line 107, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+2) {
       border-color: #B50A1A; }
       /* line 4, sass/misc/_dirty.scss */
@@ -1088,7 +1083,7 @@ article > header.entry-header > * {
       /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+2).current_page_item::before {
         background-color: #B50A1A; }
-    /* line 110, sass/misc/_dirty.scss */
+    /* line 108, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+3) {
       border-color: #84004F; }
       /* line 4, sass/misc/_dirty.scss */
@@ -1097,7 +1092,7 @@ article > header.entry-header > * {
       /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+3).current_page_item::before {
         background-color: #84004F; }
-    /* line 111, sass/misc/_dirty.scss */
+    /* line 109, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+4) {
       border-color: #49006C; }
       /* line 4, sass/misc/_dirty.scss */
@@ -1106,7 +1101,7 @@ article > header.entry-header > * {
       /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+4).current_page_item::before {
         background-color: #49006C; }
-    /* line 112, sass/misc/_dirty.scss */
+    /* line 110, sass/misc/_dirty.scss */
     .main-navigation li:nth-of-type(5n+5) {
       border-color: #8A9B0F; }
       /* line 4, sass/misc/_dirty.scss */
@@ -1115,18 +1110,18 @@ article > header.entry-header > * {
       /* line 9, sass/misc/_dirty.scss */
       .main-navigation li:nth-of-type(5n+5).current_page_item::before {
         background-color: #8A9B0F; }
-  /* line 119, sass/misc/_dirty.scss */
+  /* line 114, sass/misc/_dirty.scss */
   .main-navigation .site-sub {
     font-size: 1.1em;
     padding-top: 0.4em;
     color: #60B99A;
     font-weight: 300; }
 
-/* line 130, sass/misc/_dirty.scss */
+/* line 125, sass/misc/_dirty.scss */
 dt {
   color: black; }
 
-/* line 136, sass/misc/_dirty.scss */
+/* line 131, sass/misc/_dirty.scss */
 article + article::before {
   margin-bottom: 2em;
   content: "";
@@ -1135,7 +1130,7 @@ article + article::before {
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#F2F2F2), to(#F2F2F2), color-stop(50%, #b2b2b2));
   opacity: 0.5; }
 
-/* line 149, sass/misc/_dirty.scss */
+/* line 144, sass/misc/_dirty.scss */
 nav::after {
   content: "";
   clear: both;

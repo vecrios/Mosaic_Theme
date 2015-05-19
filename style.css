@@ -493,10 +493,10 @@ textarea {
 --------------------------------------------------------------*/
 /* line 1, sass/navigation/_links.scss */
 a {
-  color: #122A59; }
+  color: #2867E5; }
   /* line 4, sass/navigation/_links.scss */
   a:visited {
-    color: #122A59; }
+    color: #2867E5; }
   /* line 7, sass/navigation/_links.scss */
   a:hover, a:focus, a:active {
     color: #808080; }
@@ -655,7 +655,10 @@ a {
 
 /* line 32, sass/site/primary/_posts-and-pages.scss */
 .content-area .site-main {
-  padding: 4%; }
+  padding: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em; }
 
 /*--------------------------------------------------------------
 10.2 Asides
@@ -1018,12 +1021,8 @@ article > header.entry-header > * {
 
 /* line 47, sass/misc/_dirty.scss */
 .entry-content {
-  font-size: 12px;
-  font-size: 1.2rem; }
-  /* line 49, sass/misc/_dirty.scss */
-  .entry-content a {
-    font-weight: bold;
-    text-decoration: underline; }
+  font-size: 14px;
+  font-size: 1.4rem; }
 
 /* line 55, sass/misc/_dirty.scss */
 .main-navigation {
@@ -1117,23 +1116,51 @@ article > header.entry-header > * {
     color: #60B99A;
     font-weight: 300; }
 
-/* line 125, sass/misc/_dirty.scss */
+/* line 123, sass/misc/_dirty.scss */
 dt {
   color: black; }
 
-/* line 131, sass/misc/_dirty.scss */
+/* line 128, sass/misc/_dirty.scss */
 article + article::before {
   margin-bottom: 2em;
   content: "";
   display: block;
   height: 1px;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#F2F2F2), to(#F2F2F2), color-stop(50%, #b2b2b2));
-  opacity: 0.5; }
+  opacity: 0.5;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
 
-/* line 144, sass/misc/_dirty.scss */
+/* line 142, sass/misc/_dirty.scss */
 nav::after {
   content: "";
   clear: both;
   display: block; }
+
+/* line 148, sass/misc/_dirty.scss */
+.site-main about {
+  content: "";
+  display: table;
+  padding-top: 4%;
+  font-size: 1.5rem; }
+  /* line 155, sass/misc/_dirty.scss */
+  .site-main about > :not(.about-footer) {
+    text-align: center;
+    margin-top: 2em;
+    color: black; }
+  /* line 162, sass/misc/_dirty.scss */
+  .site-main about .about-thumbnail img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+  /* line 177, sass/misc/_dirty.scss */
+  .site-main about .about-content {
+    text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */

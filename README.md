@@ -11,6 +11,7 @@ TODO:
 * Change headers' fonts to follow titles. 
 * Adhere to all standards/conventions for language translation
 * Fix sidebar(). Make it either do nothing or remove call from everywhere.
+* Remove link from date on article
 
 BUGS: 
 * Sample Page: blockqoutes overlap the sidebar (should be fixed with z-index)
@@ -18,6 +19,7 @@ BUGS:
 
 IDEAS:
 * Search bar under main nav?
+* Apply same margins and width to all posts like about page?  
 
 REFACTORING:
 * 

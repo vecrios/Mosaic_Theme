@@ -13,20 +13,15 @@
 ?>
 
 <about id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="about-header">
-		<?php bloginfo( 'description' ); ?>
-	</header><!-- .about-header -->
+	<?php if ( has_post_thumbnail() ) : ?>
+		<div class="about-thumbnail"><?php the_post_thumbnail(); ?></div>
+	<?php endif ?>
 
-	<div class="about-content">
-		<?php the_content(); ?>
-	</div><!-- .about-content -->
+	<!-- Should I include name too? -->
+	<!-- <div class="about-header"><?php bloginfo( 'description' ); ?></div> -->
+	<div class="about-content"><?php the_content(); ?></div>
 
 	<footer class="about-footer">
 		<?php edit_post_link( __( 'Edit', 'underscores_theme' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .about-footer -->
-</about><!-- #post-## -->
-
-
-
-
-<!--  -->
+	</footer>
+</about>

@@ -45,10 +45,10 @@ article > header.entry-header  {
 }
 
 .entry-content {
-	@include font-size(1.2);
+	@include font-size(1.4);
 	a {
-		font-weight: bold;
-		text-decoration: underline;
+		// font-weight: bold;
+		// text-decoration: underline;
 	}
 }
 
@@ -120,12 +120,9 @@ article > header.entry-header  {
 	}
 }
 
-
-
 dt {
 	color: black;
 }
-
 
 article + article {
 	&::before {
@@ -135,14 +132,49 @@ article + article {
 		height: 1px;
 		background: -webkit-gradient(linear, 0 0, 100% 0, from($color__background-body), to($color__background-body), color-stop(50%, #b2b2b2));
 		opacity: 0.5;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
-
-
 
 // TODO: use clearfix mixin
 nav::after {
 	content: "";
 	clear: both;
 	display: block;
+}
+
+.site-main about {
+	// XXX: why do I have to do this? All divs should be cleared
+	@include clearfix();
+
+	padding-top: 4%;
+	font-size: 1.5rem;
+
+	> :not(.about-footer) {
+		text-align: center;
+		margin-top: 2em;
+		color: black;
+	}
+
+	.about-thumbnail {
+		img {
+			$size: 250px;
+			width: $size;
+			height: $size;
+			
+			border-radius: $size / 2;
+			-webkit-border-radius: $size / 2;
+			-moz-border-radius: $size / 2;
+
+			box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+			-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		}
+	}
+
+	.about-content {
+		text-align: justify;
+	}
 }

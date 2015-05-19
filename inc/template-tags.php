@@ -79,9 +79,9 @@ function underscores_theme_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		_x( '%s', 'post date', 'underscores_theme' ),
-		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
-	);
+		// remove anchor tag
+		// _x( '%s', 'post date', 'underscores_theme' ), '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		_x( '%s', 'post date', 'underscores_theme' ), $time_string );
 
 	$byline = sprintf(
 		_x( 'by %s', 'post author', 'underscores_theme' ),

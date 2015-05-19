@@ -15,6 +15,21 @@ function mosaic_theme_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 
+	$wp_customize->add_setting(
+	    'sidebar_title',
+	    array(
+	        'default' => 'your name',
+	        'sanitize_callback' => 'mosaic_theme_sanitize_text',
+	    )
+	);
+
+	$wp_customize->add_control(
+	    'sidebar_title',
+	    array(
+	        'label' => 'Sidebar Title',
+	        'section' => 'title_tagline',
+	    )
+	);
 
 	$wp_customize->add_setting(
 	    'sidebar_subtitle',

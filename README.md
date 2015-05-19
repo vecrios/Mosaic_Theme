@@ -23,3 +23,8 @@ IDEAS:
 
 REFACTORING:
 * 
+
+
+Goals:
+* Finalize layout and design
+* Refactor! 

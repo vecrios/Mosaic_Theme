@@ -4,7 +4,7 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 ?>
 
@@ -14,7 +14,7 @@
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php underscores_theme_posted_on(); ?>
+			<?php mosaic_theme_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -25,7 +25,7 @@
 
 	<footer class="entry-footer">
 		<?php 
-			//underscores_theme_entry_footer(); 
+			//mosaic_theme_entry_footer(); 
 		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

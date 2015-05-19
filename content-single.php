@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 ?>
 
@@ -9,7 +9,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php underscores_theme_posted_on(); ?>
+			<?php mosaic_theme_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
@@ -17,7 +17,7 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'underscores_theme' ),
+				'before' => '<div class="page-links">' . __( 'Pages:', 'mosaic_theme' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -25,7 +25,7 @@
 
 	<footer class="entry-footer">
 		<?php 
-			// underscores_theme_entry_footer(); 
+			// mosaic_theme_entry_footer(); 
 		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

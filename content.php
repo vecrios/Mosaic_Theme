@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 ?>
 
@@ -12,7 +12,7 @@
 		<div class="entry-meta">
 			<?php 
 				// Uncomment to show date of post
-				underscores_theme_posted_on();  
+				mosaic_theme_posted_on();  
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -22,14 +22,14 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'underscores_theme' ),
+				__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'mosaic_theme' ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 		?>
 
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'underscores_theme' ),
+				'before' => '<div class="page-links">' . __( 'Pages:', 'mosaic_theme' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -38,7 +38,7 @@
 	<footer class="entry-footer">
 		<?php 
 			// Uncomment to show category and tags
-			// underscores_theme_entry_footer(); 
+			// mosaic_theme_entry_footer(); 
 		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 ?>
 
@@ -23,7 +23,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'underscores_theme' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'mosaic_theme' ); ?></a>
 
 	<?php // include navigational menu ?>
 	<?php include 'nav.php' ?>

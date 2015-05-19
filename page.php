@@ -7,7 +7,7 @@
  * and that other 'pages' on your WordPress site will use a
  * different template.
  *
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 
 get_header(); ?>

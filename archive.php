@@ -4,7 +4,7 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 
 get_header(); ?>
@@ -34,7 +34,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php underscores_theme_paging_nav(); ?>
+			<?php mosaic_theme_paging_nav(); ?>
 
 		<?php else : ?>
 

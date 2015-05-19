@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 /**
  * TODO: 
@@ -22,6 +22,6 @@
 	<div class="about-content"><?php the_content(); ?></div>
 
 	<footer class="about-footer">
-		<?php edit_post_link( __( 'Edit', 'underscores_theme' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'mosaic_theme' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer>
 </about>

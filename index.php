@@ -8,7 +8,7 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 
 get_header(); ?>
@@ -32,7 +32,7 @@ get_header(); ?>
 			<?php endwhile; ?>
 
 			<?php /* For previous/next pages */ ?>
-			<?php underscores_theme_paging_nav(); ?>
+			<?php mosaic_theme_paging_nav(); ?>
 
 		<?php else : ?>
 			<?php /* If no posts exists */ ?>

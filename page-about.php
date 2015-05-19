@@ -4,7 +4,7 @@
  * About me page. Includes Photo and a small backgorund description
  * 
  * Template Name: About Page
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 
 get_header();

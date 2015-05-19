@@ -2,7 +2,7 @@
 /**
  * The sidebar containing the main widget area.
  *
- * @package Underscores_Theme
+ * @package Mosaic_Theme
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {

@@ -1,5 +1,5 @@
 /*
-Theme Name: Mosaic
+Theme Name: _s
 Theme URI: http://underscores.me/
 Author: Automattic
 Author URI: http://automattic.com/
@@ -588,7 +588,7 @@ a {
 10.0 Content
 --------------------------------------------------------------*/
 @media all and (min-width: 800px) {
-  /* line 6, sass/site/_site.scss */
+  /* line 5, sass/site/_site.scss */
   .site {
     display: -webkit-box;
     display: -moz-box;
@@ -597,7 +597,7 @@ a {
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap; }
-    /* line 12, sass/site/_site.scss */
+    /* line 11, sass/site/_site.scss */
     .site .main-navigation {
       -webkit-box-ordinal-group: 3;
       -moz-box-ordinal-group: 3;
@@ -609,7 +609,7 @@ a {
       -webkit-flex: 1 10px;
       -ms-flex: 1 10px;
       flex: 1 10px; }
-    /* line 17, sass/site/_site.scss */
+    /* line 16, sass/site/_site.scss */
     .site .site-content {
       -webkit-box-ordinal-group: 2;
       -moz-box-ordinal-group: 2;
@@ -621,6 +621,12 @@ a {
       -webkit-flex: 2 0px;
       -ms-flex: 2 0px;
       flex: 2 0px; } }
+@media all and (min-width: 980px) {
+  /* line 24, sass/site/_site.scss */
+  .site {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto; } }
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
